@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.slot {
+  display: flex;
+  flex-direction: row;
+}
+
+.block {
+  width: 9rem;
+  height: 2.5rem;
+  border: 0.5px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.highlight {
+  background-color: rgb(88, 180, 255);
+}
+
+.day {
+  display: flex;
+  flex-direction: row;
+}
